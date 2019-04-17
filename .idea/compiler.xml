@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-sharing" />
+        <module name="RMI-client" />
+        <module name="RMI-server" />
       </profile>
     </annotationProcessing>
   </component>
