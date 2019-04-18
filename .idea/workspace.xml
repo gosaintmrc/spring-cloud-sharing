@@ -2,30 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ac35cc-de86-4f9e-911d-b2910dea4289" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/spring-cloud-sharing-webservice.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/webservice-server.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/RMI_server_jar/RMI-server.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/src/main/java/com/gosaint/client/RMI-server.jar" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/src/main/java/com/gosaint/client/RMI-server.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/target/classes/com/gosaint/client/Client.class" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/target/classes/com/gosaint/client/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/target/classes/com/gosaint/service/HelloService.class" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/target/classes/com/gosaint/service/HelloService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/target/classes/com/gosaint/service/Main.class" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/target/classes/com/gosaint/service/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/target/classes/com/gosaint/service/impl/HelloServiceImpl.class" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/target/classes/com/gosaint/service/impl/HelloServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-rest/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/com/gosaint/web/RestProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-cloud-sharing-rest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Add.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/AddResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Client_WebService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Multi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/MultiResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/ObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl/Calculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl/CalculatorImplService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/webservice-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/Calculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/impl/CalculatorImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/RMI-client.iml" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/RMI-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/src/main/java/com/gosaint/client/Client.java" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/src/main/java/com/gosaint/client/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/RMI-server.iml" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/RMI-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/src/main/java/com/gosaint/service/HelloService.java" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/src/main/java/com/gosaint/service/HelloService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/src/main/java/com/gosaint/service/Main.java" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/src/main/java/com/gosaint/service/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/src/main/java/com/gosaint/service/impl/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/src/main/java/com/gosaint/service/impl/HelloServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-RMI/spring-cloud-sharing-RMI.iml" afterPath="$PROJECT_DIR$/spring-cloud-sharing-RMI/spring-cloud-sharing-RMI.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/webservice-server.iml" afterPath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/webservice-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-sharing.iml" afterPath="$PROJECT_DIR$/spring-cloud-sharing.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,6 +104,9 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-sharing-webservice/eee/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-sharing-rest/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,77 +116,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="CalculatorImplService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl/CalculatorImplService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client_WebService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Client_WebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-cloud-sharing-RMI.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-RMI/spring-cloud-sharing-RMI.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-cloud-sharing-webservice.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/spring-cloud-sharing-webservice.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-RMI/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/pom.xml">
+      <file leaf-file-name="SpringBootServiceProviderApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/SpringBootServiceProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/com/gosaint/web/RestProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestConsumer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootServiceConsumerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/SpringBootServiceConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,6 +258,20 @@
         <option value="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/src/main/java/com/gosaint/client/Client.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/Calculator.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/impl/CalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/Server.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl/Calculator.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Client.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Client_WebService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/service/RestService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/com/gosaint/web/RestProvider.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestProvider.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConsumer.java" />
       </list>
     </option>
   </component>
@@ -143,6 +280,19 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="123" />
@@ -176,6 +326,11 @@
               <item name="spring-cloud-sharing" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-sharing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sharing-rest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,9 +346,19 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl" />
+      <recent name="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service" />
+      <recent name="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java" />
       <recent name="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/src/main/java/com/gosaint/client" />
     </key>
   </component>
@@ -209,7 +374,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Spring Boot.SpringBootServiceConsumerApplication">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gosiant.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gosiant.service.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="webservice-client" />
+      <envs />
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -229,6 +413,25 @@
       <module name="RMI-client" />
       <envs />
     </configuration>
+    <configuration name="Client_WebService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gosiant.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gosiant.service.Client_WebService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="webservice-client" />
+      <envs />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -246,6 +449,37 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="RMI-server" />
+      <envs />
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gosiant.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gosiant.service.Server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="webservice-server" />
+      <envs />
+    </configuration>
+    <configuration name="SpringBootServiceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gosaint.springbootserviceconsumer.SpringBootServiceConsumerApplication" />
+      <module name="spring-boot-service-consumer" />
+      <envs />
+    </configuration>
+    <configuration name="SpringBootServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gosaint.springbootserviceprovider.SpringBootServiceProviderApplication" />
+      <module name="spring-boot-service-provider" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -329,14 +563,22 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client_WebService" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringBootServiceProviderApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SpringBootServiceConsumerApplication" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Client_WebService" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -354,29 +596,41 @@
       <option name="presentableId" value="Default" />
       <updated>1555550841110</updated>
       <workItem from="1555550845451" duration="3568000" />
-      <workItem from="1555572039574" duration="772000" />
+      <workItem from="1555572039574" duration="5800000" />
     </task>
+    <task id="LOCAL-00001" summary="webservice">
+      <created>1555572854853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555572854854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4340000" />
+    <option name="totallyTimeSpent" value="9368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="7" width="1366" height="718" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21223022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06115108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31654677" sideWeight="0.5090909" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.086330935" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31969696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22121212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -388,7 +642,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -398,6 +651,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="webservice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -423,6 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -430,6 +688,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,6 +696,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,6 +704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,6 +761,196 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/impl/CalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/src/main/java/com/gosiant/service/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/AddResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Multi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/MultiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/impl/CalculatorImplService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/src/main/java/com/gosiant/service/Client_WebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/service/RestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/SpringBootServiceProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/src/main/java/com/gosaint/springbootserviceprovider/com/gosaint/web/RestProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/SpringBootServiceConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/src/main/java/com/gosaint/springbootserviceconsumer/web/RestConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

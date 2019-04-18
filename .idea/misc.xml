@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sharing-rest/spring-boot-service-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

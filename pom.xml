@@ -13,6 +13,8 @@
         <module>spring-cloud-sharing-webservice</module>
         <module>spring-cloud-sharing-webservice</module>
         <module>spring-cloud-sharing-webservice</module>
+        <module>spring-cloud-sharing-rest</module>
+        <module>spring-cloud-sharing-rest</module>
     </modules>
 
 
