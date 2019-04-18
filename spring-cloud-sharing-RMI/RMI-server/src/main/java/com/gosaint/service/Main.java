@@ -9,15 +9,13 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class Main {
 
-    public static void main(String[] args) throws RemoteException {
-
-        System.setSecurityManager(new SecurityManager());
-        // 创建本机 1099 端口上的RMI registry
+    public static void main(String[] args) throws RemoteException, InterruptedException {
+        int port = 2019;
+        HelloService helloService=new HelloServiceImpl();
+        UnicastRemoteObject.exportObject(helloService,port);
         Registry registry = LocateRegistry.createRegistry(1099);
-        HelloServiceImpl helloServiceImpl=new HelloServiceImpl();
-        HelloService helloService =
-                (HelloService) UnicastRemoteObject.exportObject(helloServiceImpl, 1099);
         registry.rebind("helloService", helloService);
-        System.out.println("server is ready");
+        System.out.println("服务开启");
+
     }
 }

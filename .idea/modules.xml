@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/RMI-client.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-client/RMI-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/RMI-server.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-RMI/RMI-server/RMI-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/d.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-webservice/d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/dddd.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-webservice/dddd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-RMI/spring-cloud-sharing-RMI.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-RMI/spring-cloud-sharing-RMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/spring-cloud-sharing-webservice.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-webservice/spring-cloud-sharing-webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/webservice-client.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-client/webservice-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/webservice-server.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-webservice/webservice-server/webservice-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sharing-webservice/wenservice-client.iml" filepath="$PROJECT_DIR$/spring-cloud-sharing-webservice/wenservice-client.iml" />
+    </modules>
+  </component>
+</project>

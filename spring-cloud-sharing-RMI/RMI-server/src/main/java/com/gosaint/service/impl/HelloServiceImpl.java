@@ -6,7 +6,7 @@ import java.rmi.RemoteException;
 
 public class HelloServiceImpl implements HelloService {
 
-    public void sayHello(String str) throws RemoteException {
-        System.out.println(str+"RMI");
+    public String sayHello(String str) throws RemoteException {
+        return str+"RMI";
     }
 }

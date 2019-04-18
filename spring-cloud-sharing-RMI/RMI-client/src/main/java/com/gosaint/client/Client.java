@@ -1,6 +1,7 @@
 package com.gosaint.client;
 
 import com.gosaint.service.HelloService;
+import com.sun.security.ntlm.Server;
 
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
@@ -10,11 +11,9 @@ import java.rmi.registry.Registry;
 public class Client {
 
     public static void main(String[] args) throws RemoteException, NotBoundException {
-
-        //在客户端加载策略文件
-        System.setSecurityManager(new SecurityManager());
-        Registry registry = LocateRegistry.getRegistry("192.168.31.42", 1099);
-        HelloService helloService = (HelloService)registry.lookup("helloService");
-        helloService.sayHello("Hello!");
+        Registry registry = LocateRegistry.getRegistry("localhost", 1099);
+        HelloService helloService = (HelloService) registry.lookup("helloService");
+        String response = helloService.sayHello("Hello!");
+        System.out.println("客户端获取接口返回值---->"+response);
     }
 }

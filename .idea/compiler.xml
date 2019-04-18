@@ -6,9 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eee" />
         <module name="RMI-client" />
         <module name="RMI-server" />
+        <module name="webservice-client" />
+        <module name="webservice-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eee" target="1.5" />
+      <module name="RMI-client" target="1.5" />
+      <module name="RMI-server" target="1.5" />
+      <module name="spring-cloud-sharing" target="1.5" />
+      <module name="spring-cloud-sharing-RMI" target="1.5" />
+      <module name="spring-cloud-sharing-webservice" target="1.5" />
+      <module name="webservice-client" target="1.5" />
+      <module name="webservice-server" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
