@@ -6,28 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eee" />
         <module name="RMI-client" />
         <module name="RMI-server" />
+        <module name="service-providers2" />
+        <module name="service-provides" />
+        <module name="service-register-center" />
         <module name="spring-boot-service-consumer" />
         <module name="spring-boot-service-provider" />
+        <module name="spring-cloud-sharing-register" />
         <module name="spring-cloud-sharing-rest" />
+        <module name="spring-cloud-sharing-ribbon" />
         <module name="webservice-client" />
         <module name="webservice-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eee" target="1.5" />
-      <module name="RMI-client" target="1.7" />
-      <module name="RMI-server" target="1.7" />
-      <module name="spring-boot-service-consumer" target="1.7" />
-      <module name="spring-boot-service-provider" target="1.7" />
-      <module name="spring-cloud-sharing" target="1.7" />
-      <module name="spring-cloud-sharing-rest" target="1.7" />
-      <module name="spring-cloud-sharing-RMI" target="1.7" />
-      <module name="spring-cloud-sharing-webservice" target="1.7" />
-      <module name="webservice-client" target="1.7" />
-      <module name="webservice-server" target="1.7" />
+      <module name="service-client" target="1.8" />
+      <module name="service-provider" target="1.8" />
+      <module name="spring-cloud-sharing-register" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="service-client" options="-parameters" />
+      <module name="service-provider" options="-parameters" />
+      <module name="service-providers2" options="-parameters" />
+      <module name="service-provides" options="-parameters" />
+      <module name="service-register-center" options="-parameters" />
+      <module name="spring-boot-service-consumer" options="-parameters" />
+      <module name="spring-boot-service-provider" options="-parameters" />
+      <module name="spring-cloud-sharing-register" options="" />
+    </option>
   </component>
 </project>
