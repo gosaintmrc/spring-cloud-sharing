@@ -13,8 +13,8 @@
         <module>spring-cloud-sharing-webservice</module>
         <module>spring-cloud-sharing-rest</module>
         <module>spring-cloud-sharing-register</module>
-        <module>spring-cloud-sharing-ribbon</module>
+        <module>spring-cloud-sharing-feign</module>
+        <module>spring-cloud-sharing-config</module>
     </modules>
-
 
 </project>

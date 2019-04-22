@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: global
+  cloud:
+      config:
+        uri: http://localhost:8888/ # 配置8888中心的地址
+        profile: dev
+        label: master

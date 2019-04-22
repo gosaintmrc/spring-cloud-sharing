@@ -12,7 +12,9 @@
     <artifactId>spring-clou-sharing-register</artifactId>
 
     <modules>
-        <module>service-register-center</module>
-        <module>service-providers</module>
+        <module>service-providers2</module>
+        <module>service-provides</module>
+        <module>service-client</module>
+        <module>service-eureka</module>
     </modules>
 </project>

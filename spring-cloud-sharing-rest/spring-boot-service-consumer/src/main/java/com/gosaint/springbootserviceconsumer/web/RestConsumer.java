@@ -13,10 +13,10 @@ public class RestConsumer {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("user/{id}")
+    @GetMapping("/user")
     public String queryUser(@RequestParam long id) {
         ResponseEntity<String> entity =
-                restTemplate.getForEntity("http://localhost:8090/admin/user", String.class, id);
+                restTemplate.getForEntity("http://localhost:8090/admin/user?id="+id, String.class);
         String body = entity.getBody();
         return body;
     }

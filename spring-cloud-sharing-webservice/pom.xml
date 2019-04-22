@@ -12,8 +12,8 @@
     <artifactId>spring-cloud-sharing-webservice</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>webservice-server</module>
         <module>webservice-client</module>
+        <module>webservice-server</module>
     </modules>
 
 
